@@ -132,6 +132,6 @@ div.dropdown-menu.show {
 
 @media only screen and (max-width: 698px) {
   div.dropdown-menu.show {
-    min-width: 20rem;
+    min-width: 21rem;
   }
 }

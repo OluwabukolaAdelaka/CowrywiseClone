@@ -16,7 +16,7 @@ const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => {setIsOpen(!isOpen)}
   return (
-    <div className='container'>
+    <div className='container container-fluid'>
         <Navbar
             color="light"
             expand="md"
@@ -120,7 +120,7 @@ const Navigation = () => {
                             <DropdownItem>
                                 <FaBook className='personalicon'/>
                                 <h5 className='mydropdlinks-title'>Docs</h5>
-                                <p className='mydropdlinks-text'>Read how to integrate the Embedded API</p>
+                                <p className='mydropdlinks-text'>Read how to integrate Embedded API</p>
                             </DropdownItem>
                             </div>
                             <div className="col-6 col-md-4 divider">

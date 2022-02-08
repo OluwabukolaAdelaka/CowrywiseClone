@@ -1,8 +1,133 @@
+/* .container {
+  width: 0%;
+  overflow: hidden;
+} */
+
 .logoCon {
-  align-items: start;
+  margin: 2rem 0 8rem 0;
 }
 
 .logo {
   width: 200px;
   height: 40px;
+}
+
+.hero-text {
+  color: #0a2e65;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.sub-text {
+  color: #758bad;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.acc-details {
+  background-color: #758bad4f;
+  width: 12rem;
+  height: auto;
+  border-radius: 10px;
+}
+.signUpInput {
+  width: 90%;
+  padding: 15px;
+  margin: 2rem 2rem 3rem 1rem;
+  border: 1px solid #758bad5e;
+  color: #758bad;
+  border-radius: 5px;
+}
+
+.formLink {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 2rem 0rem 2rem 1rem;
+}
+
+.signup-btn {
+  color: #fff;
+  background-color: #0066f5;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+}
+.acc-part {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+
+.accPartText {
+  margin: 1rem 0rem 0rem 1rem;
+  color: #758bad;
+}
+
+.testimonial {
+  padding: 2rem 0 0 0;
+  margin-bottom: 4rem;
+}
+
+.trusted {
+  background-color: #fff;
+  color: #758bad;
+  border-radius: 10px;
+  width: fit-content;
+  height: auto;
+  padding: 5px;
+}
+
+.trustedIcon {
+  color: #0066f5;
+  margin-right: 5px;
+}
+
+.support {
+  display: flex;
+  justify-content: space-between;
+}
+
+.users {
+  color: #0a2e65;
+}
+span {
+  color: #0066f5;
+  font-weight: bold;
+}
+
+.img {
+  width: 30%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .acc-details {
+    width: 12rem;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .acc-details {
+    width: 10rem;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  .acc-details {
+    width: 10rem;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .support {
+    display: block;
+    justify-content: space-between;
+  }
 }
