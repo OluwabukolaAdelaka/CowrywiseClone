@@ -1,0 +1,64 @@
+.rowCon {
+  height: 100vh;
+}
+.reportPart {
+  background-color: #0066f5;
+  color: #fff;
+  text-align: center;
+}
+
+.reportHero {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.reportText {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.reportbtn {
+  background-color: #0066f5;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: bold;
+  outline: none;
+}
+.reportIcon {
+  background-color: #0066f5;
+  color: #fff;
+  font-weight: bold;
+}
+.formPart {
+  padding: 6rem 0 0 6rem;
+  background-color: #6a9ce6;
+  color: #fff;
+}
+.formDetails {
+  background-color: #758bad4f;
+  width: 40rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .formDetails {
+    width: 40rem;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .formDetails {
+    width: 30rem;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  .formDetails {
+    width: 20rem;
+    height: auto;
+  }
+}

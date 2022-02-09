@@ -27,17 +27,11 @@ const SignupForm = () => {
 
   }
 
-  // const ErrorMsg = () => {
-  //   if (email.trim() === '') {
-  //     console.log("Enter an email address");
-  //   }
-  // }
-  // ErrorMsg();
 
   return (
     <div className='container'>
       <div className='logoCon'>
-        <Link to="/home" className="logo">
+        <Link to="/" className="logo">
           <img src={Logo} alt="logo" style={{width: "25%"}}/>
         </Link>
       </div>
@@ -50,7 +44,7 @@ const SignupForm = () => {
         <div className='col acc-details'>
           <form onSubmit={handleFormSubmit}>
             <input type="email" name='email' placeholder='Email Address' className='signUpInput' 
-            value={email} required onChange={(e) => setEmail(e.target.value)}/>
+            value={email} onChange={(e) => setEmail(e.target.value)}/>
             <div className='errorMsg'>{errorIcon}{error}</div>
           </form>
           <Link to="" className='formLink'>Got an invite code?</Link>
