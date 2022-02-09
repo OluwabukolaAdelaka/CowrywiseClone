@@ -140,7 +140,7 @@ const Navigation = () => {
                         nav
                         className='navitem'
                     >
-                       <Link to="/components" className='mylinks'>Learn</Link>
+                       <Link to="/" className='mylinks'>Learn</Link>
                     </DropdownToggle>
                 </UncontrolledDropdown>
             </Nav>

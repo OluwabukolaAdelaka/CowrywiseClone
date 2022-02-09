@@ -33,10 +33,22 @@
 .signUpInput {
   width: 90%;
   padding: 15px;
-  margin: 2rem 2rem 3rem 1rem;
+  margin: 2rem 2rem 0rem 1rem;
   border: 1px solid #758bad5e;
   color: #758bad;
   border-radius: 5px;
+}
+
+.errorMsg {
+  width: 80%;
+  color: rgb(231, 61, 61);
+  margin: 0 0 2rem 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.errorIcon {
+  color: rgb(231, 61, 61);
+  margin-right: 3px;
 }
 
 .formLink {
