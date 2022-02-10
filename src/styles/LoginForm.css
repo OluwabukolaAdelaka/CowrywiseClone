@@ -1,15 +1,20 @@
-.rowCon {
-  height: 100vh;
+.Con {
+  min-height: 100vh;
+  justify-content: center;
 }
+
+.logoContainer {
+  padding: 2rem 0 2rem 0;
+}
+
 .reportPart {
-  background-color: #0066f5;
-  color: #fff;
+  padding-top: 2rem;
   text-align: center;
 }
 
 .reportHero {
   font-size: 5rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .reportText {
   font-size: 1rem;
@@ -31,17 +36,71 @@
   font-weight: bold;
 }
 .formPart {
-  padding: 6rem 0 0 6rem;
-  background-color: #6a9ce6;
-  color: #fff;
+  padding-top: 10rem;
+  padding-left: 6rem;
 }
 .formDetails {
-  background-color: #758bad4f;
+  padding: 4rem 0 0 2rem;
+  background-color: #fff;
   width: 40rem;
   height: auto;
   border-radius: 10px;
 }
 
+.formHero {
+  color: #0a2e65;
+}
+.formText {
+  color: #adbacc;
+}
+
+.loginInput {
+  width: 90%;
+  padding: 15px;
+  margin: rem 0rem 0rem 1rem;
+  border: 1px solid #758bad5e;
+  color: #758bad;
+  border-radius: 5px;
+}
+
+.forgotP {
+  text-decoration: none;
+  font-weight: 1rem;
+  margin: 2rem 0rem 2rem 0.5rem;
+}
+
+.formPartUser {
+  color: #3e434ba4;
+}
+
+.signin-btn {
+  color: #fff;
+  background-color: #0066f5;
+  border: none;
+  border-radius: 5px;
+  margin-right: 3rem;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.accPart {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+
+.Supports {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.formPrivacy {
+  margin-right: 3rem;
+}
 @media only screen and (max-width: 1024px) {
   .formDetails {
     width: 40rem;
@@ -54,11 +113,61 @@
     width: 30rem;
     height: auto;
   }
+  .formPart {
+    padding-top: 6rem;
+    padding-left: 2.5rem;
+  }
+  .reportHero {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .reportText {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .loginInput {
+    width: 90%;
+    padding: 15px;
+    margin: 1rem 0rem 0rem 0rem;
+    border: 1px solid #758bad5e;
+    color: #758bad;
+    border-radius: 5px;
+  }
 }
 
 @media only screen and (max-width: 698px) {
   .formDetails {
     width: 20rem;
     height: auto;
+  }
+  .formPart {
+    padding-top: 6rem;
+    padding-left: 2.5rem;
+  }
+  .loginInput {
+    width: 90%;
+    padding: 15px;
+    margin: 1rem 0rem 0rem 0rem;
+    border: 1px solid #758bad5e;
+    color: #758bad;
+    border-radius: 5px;
+  }
+  .signin-btn {
+    color: #fff;
+    background-color: #0066f5;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+  }
+  .accPart {
+    display: block;
+  }
+  .Supports {
+    display: block;
+    justify-content: space-between;
   }
 }

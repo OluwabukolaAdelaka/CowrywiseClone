@@ -1,10 +1,9 @@
-/* .container {
-  width: 0%;
-  overflow: hidden;
+/* .Cont {
+  justify-content: left;
 } */
 
 .logoCon {
-  padding: 2rem 0 8rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .logo {
@@ -25,8 +24,9 @@
 }
 
 .acc-details {
-  background-color: #758bad4f;
+  background-color: #fff;
   width: 12rem;
+  padding: 3rem 0 0 2rem;
   height: auto;
   border-radius: 10px;
 }
@@ -63,13 +63,13 @@
   border: none;
   border-radius: 5px;
   padding: 8px 16px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   outline: none;
 }
 .acc-part {
   display: flex;
-  padding: 2rem 0;
+  padding: 1rem 0;
   justify-content: space-between;
 }
 
@@ -100,6 +100,7 @@
 .support {
   display: flex;
   justify-content: space-between;
+  color: #758bad;
 }
 
 .users {
@@ -124,22 +125,40 @@ span {
 
 @media only screen and (max-width: 768px) {
   .acc-details {
-    width: 10rem;
+    width: 8rem;
     height: auto;
   }
 }
 
 @media only screen and (max-width: 698px) {
   .acc-details {
-    width: 10rem;
+    width: 8rem;
     height: auto;
   }
-  .img {
-    width: 100%;
-    height: auto;
+  .hero-text {
+    padding-left: 2rem;
+    color: #0a2e65;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .sub-text {
+    padding-left: 2rem;
+    color: #758bad;
+    font-size: 2rem;
+    font-weight: bold;
   }
   .support {
     display: block;
     justify-content: space-between;
+    padding-left: 2rem;
+  }
+  .trusted {
+    background-color: #fff;
+    color: #758bad;
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    padding: 5px;
+    margin: 0 0 1rem 2rem;
   }
 }
