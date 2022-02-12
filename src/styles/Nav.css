@@ -1,5 +1,5 @@
 .navigation {
-  background-color: #c3c8cf8f;
+  background-color: #fff;
 }
 
 a.navbar-brand {
@@ -112,7 +112,6 @@ div.dropdown-menu.show {
 }
 .signup-btn {
   color: #fff;
-  background-color: #0066f5;
   border: none;
   border-radius: 5px;
   padding: 8px 16px;
@@ -122,6 +121,197 @@ div.dropdown-menu.show {
   margin-right: 1.5rem;
 }
 
+/* Hero Section */
+.heroSection {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.imgs {
+  width: 80%;
+  height: auto;
+}
+/* .imgPart {
+  background-color: #2d81f6;
+} */
+
+.textPart {
+  padding-top: 8rem;
+}
+
+.heroText {
+  color: #022b69;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.heroMsg {
+  color: #758bad;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.heroInput {
+  width: 70%;
+  padding: 16px 20px;
+  color: #758bad36;
+  border: 1px solid #758bad36;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.heroBtn {
+  background-color: #0067f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  margin-left: 1.5rem;
+}
+
+/* values */
+.valueSection {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.valueFreedom {
+  padding-top: 6rem;
+}
+
+.savings {
+  background-color: #f4f6ff;
+  width: 36rem;
+  height: 44rem;
+  margin: 6rem 0 5rem;
+  padding: 3rem 0rem 0rem 3rem;
+  border-radius: 20px;
+}
+.mutual {
+  background-color: #e1f6ff;
+  width: 36rem;
+  height: 46rem;
+  margin: 6rem 0 5rem;
+  padding: 3rem;
+  border-radius: 20px;
+}
+.stash {
+  background-color: #0066f5;
+  color: white;
+  width: 36rem;
+  height: 47rem;
+  margin: 6rem 0 5rem;
+  padding: 3rem;
+  border-radius: 20px;
+}
+.circles {
+  background-color: #fff6ee;
+  width: 36rem;
+  height: 44rem;
+  margin: 6rem 0 5rem;
+  padding: 3rem;
+  border-radius: 20px;
+}
+.emergency {
+  background-color: #fdf3f6;
+  width: 36rem;
+  height: 44rem;
+  margin: 6rem 0 5rem;
+  padding: 3rem;
+  border-radius: 20px;
+}
+.stock {
+  background-color: #f5f6fa;
+  width: 36rem;
+  height: 46rem;
+  margin: 6rem 0 5rem;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.valueType {
+  color: #758bad;
+  font-size: 1.5rem;
+}
+.valueTypeStash {
+  font-size: 1.5rem;
+}
+
+.valueTitle {
+  color: #022b69;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.valueTitleStash {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.valueMsg {
+  color: #758bad;
+  font-size: 1.2rem;
+}
+.valueMsgStash {
+  font-size: 1.2rem;
+}
+
+.valueAction {
+  color: #0067f5;
+  font-size: 1rem;
+}
+.valueActionStash {
+  font-size: 1rem;
+}
+
+.savingsImg {
+  width: 480px;
+  height: 420px;
+  padding-left: 2rem;
+}
+
+/* Step Section */
+.stepSection {
+  background-color: #fcfcfc;
+  margin: 3rem 0 0;
+  padding-top: 2rem;
+}
+.stepHero {
+  color: #022b69;
+  margin: 2.44rem 0 4rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.step-active {
+  display: flex;
+  margin: 3rem 0 3.125rem;
+}
+.content {
+  margin-left: 0rem;
+}
+.stepContentNum {
+  color: #0067f5;
+}
+.stepContentTitle {
+  color: #022b69;
+  padding-left: 3rem;
+}
+.stepContentText {
+  margin: 1rem 0rem;
+  font-size: 1.25rem;
+  color: #758bad;
+  border-left: 1px solid #0066f5 !important;
+  padding-left: 3rem;
+}
+.stepContentTextD {
+  margin: 1rem 0rem;
+  font-size: 1.25rem;
+  color: #758bad;
+  padding-left: 3rem;
+}
+
+/* Media query */
 @media only screen and (max-width: 1024px) {
   div.dropdown-menu.show {
     min-width: 40%;

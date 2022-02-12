@@ -49,7 +49,7 @@ class LoginForm extends Component {
               </div>
             </div>
             <div className='Supports'>
-                <p>Trouble Signing in? <Link to="" className='formLink'>Chat with us</Link></p>
+                <p className='formPrivacy'>Trouble Signing in? <Link to="" className='formLink'>Chat with us</Link></p>
                 <p className='formPrivacy'>Privacy | Terms</p>
               </div>
           </div>

@@ -1,14 +1,19 @@
-/* .Cont {
-  justify-content: left;
-} */
+.signUpCon {
+  min-height: 100vh;
+  background-color: #c3c8cf8f;
+}
 
 .logoCon {
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 3rem 2rem;
 }
 
 .logo {
   width: 200px;
   height: 40px;
+}
+
+.textPart {
+  padding-left: 2rem !important ;
 }
 
 .hero-text {
@@ -25,13 +30,14 @@
 
 .acc-details {
   background-color: #fff;
-  width: 12rem;
-  padding: 3rem 0 0 2rem;
+  width: 8rem !important;
+  padding: 3rem 0rem 0 2rem;
+  margin-right: 3rem;
   height: auto;
   border-radius: 10px;
 }
 .signUpInput {
-  width: 90%;
+  width: 70%;
   padding: 15px;
   margin: 2rem 2rem 0rem 1rem;
   border: 1px solid #758bad5e;
@@ -62,6 +68,7 @@
   background-color: #0066f5;
   border: none;
   border-radius: 5px;
+  margin-left: 5px;
   padding: 8px 16px;
   font-size: 1rem;
   font-weight: bold;
@@ -86,6 +93,7 @@
 .trusted {
   background-color: #fff;
   color: #758bad;
+  margin-left: 2rem !important;
   border-radius: 10px;
   width: fit-content;
   height: auto;
@@ -101,6 +109,7 @@
   display: flex;
   justify-content: space-between;
   color: #758bad;
+  margin-right: 3rem;
 }
 
 .users {
@@ -127,6 +136,7 @@ span {
   .acc-details {
     width: 8rem;
     height: auto;
+    margin-right: 0rem;
   }
 }
 
@@ -134,6 +144,7 @@ span {
   .acc-details {
     width: 8rem;
     height: auto;
+    margin: 0rem 1rem;
   }
   .hero-text {
     padding-left: 2rem;
@@ -160,5 +171,10 @@ span {
     height: auto;
     padding: 5px;
     margin: 0 0 1rem 2rem;
+  }
+  .acc-part {
+    display: block;
+    padding: 1rem 0;
+    justify-content: space-between;
   }
 }

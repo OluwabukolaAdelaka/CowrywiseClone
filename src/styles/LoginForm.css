@@ -1,6 +1,7 @@
 .Con {
   min-height: 100vh;
   justify-content: center;
+  background-color: #c3c8cf8f;
 }
 
 .logoContainer {
@@ -92,14 +93,14 @@
 }
 
 .Supports {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
 }
 
 .formPrivacy {
-  margin-right: 3rem;
+  color: #758bad;
 }
 @media only screen and (max-width: 1024px) {
   .formDetails {
@@ -115,7 +116,7 @@
   }
   .formPart {
     padding-top: 6rem;
-    padding-left: 2.5rem;
+    padding-left: 2.5rem !important;
   }
   .reportHero {
     font-size: 4rem;
