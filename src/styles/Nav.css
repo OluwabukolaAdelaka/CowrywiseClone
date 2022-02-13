@@ -78,10 +78,7 @@ div.dropdown-menu.show {
 .mydropdownlinks {
   text-decoration: none;
 }
-/* .dropdown-item:hover {
-  color: #0066f5;
-  cursor: pointer;
-} */
+
 .mydropdlinks-title {
   color: #022b69;
 }
@@ -131,9 +128,6 @@ div.dropdown-menu.show {
   width: 80%;
   height: auto;
 }
-/* .imgPart {
-  background-color: #2d81f6;
-} */
 
 .textPart {
   padding-top: 8rem;
@@ -274,7 +268,7 @@ div.dropdown-menu.show {
 /* Step Section */
 .stepSection {
   background-color: #fcfcfc;
-  margin: 3rem 0 0;
+  margin: 3rem 0;
   padding-top: 2rem;
 }
 .stepHero {
@@ -311,6 +305,10 @@ div.dropdown-menu.show {
   padding-left: 3rem;
 }
 
+/* Security Section */
+.securitySection {
+  background-color: #0066f5;
+}
 /* Media query */
 @media only screen and (max-width: 1024px) {
   div.dropdown-menu.show {

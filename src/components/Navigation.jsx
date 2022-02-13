@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Navbar, NavbarToggler, Collapse, Nav, UncontrolledDropdown,
  DropdownToggle, DropdownMenu, DropdownItem, NavbarBrand} from 'reactstrap';
+import { ToastContainer, toast } from 'react-toastify';
 import {Link} from 'react-router-dom';
 import {BsStack} from 'react-icons/bs';
 import {BsFillLockFill} from 'react-icons/bs';
@@ -28,6 +29,15 @@ import '../styles/Nav.css';
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => {setIsOpen(!isOpen)}
+
+    const [email, setEmail] = useState('');
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setEmail('');
+        toast("Welcome to the Investment world!");
+    }
+    
   return (
     <div className='container container-fluid'>
         <Navbar
@@ -179,11 +189,12 @@ const Navigation = () => {
                     <p className='heroMsg'>Build discipline, access financial tools that 
                         steadily grow your finances.
                     </p>
-                    <input type="email" name='email' placeholder='Your email...' 
+                    <input type="email" name='email' required value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Your email...' 
                     className='heroInput'/>
-                    <button className='heroBtn'>Start Investing</button>
+                    <button onClick={handleSubmit} className='heroBtn'>Start Investing</button>
                 </div>
             </div>
+            <ToastContainer/>
         </div>
 
         {/* Values Section */}
@@ -278,6 +289,18 @@ const Navigation = () => {
                 <Link to="/signup">
                     <button className='signup-btn'>Sign Up Now</button>
                 </Link>
+            </div>
+        </div>
+
+        {/* Security Section */}
+        <div className='securitySection'>
+            <h2>Keeping your money safe is our business.</h2>
+            <p>Trust is our currency. We are committed to the security of your money and the protection of your account.</p>
+            <h6 className='securityAction'>LEARN MORE <RiArrowRightSLine/></h6>
+
+            <div className="row">
+                <div className="col"></div>
+                <div className="col"></div>
             </div>
         </div>
     </div>
