@@ -308,6 +308,108 @@ div.dropdown-menu.show {
 /* Security Section */
 .securitySection {
   background-color: #0066f5;
+  margin: 5rem 3rem;
+  padding: 5rem 9rem;
+}
+.securityHero {
+  color: #fff;
+  margin: 0rem 5rem;
+}
+.securityHeroTitle {
+  font-size: 4rem;
+  font-weight: 500;
+  width: 50%;
+  color: #fff;
+}
+.securityHeroMsg {
+  font-size: 1.2rem;
+  width: 40%;
+  color: rgba(255, 255, 255, 0.836);
+  margin: 2rem 0;
+}
+.securityAction {
+  color: #ffffffb3;
+  font-size: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+.securityContent {
+  display: flex;
+  width: 60%;
+  color: #fff;
+  margin: 0rem 5rem;
+}
+.securityIcon {
+  color: #f5f6fa;
+  font-size: 4rem;
+  margin-right: 1rem;
+  padding-bottom: 2rem;
+}
+.securityIconR,
+.securityIconC,
+.securityIconF {
+  color: #f5f6fa;
+  font-size: 5rem;
+  margin-right: 1rem;
+  padding-bottom: 2rem;
+}
+.securityTitle {
+  font-size: 2rem;
+}
+.securityText {
+  color: #ffffffcc;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+/* Perk Section */
+.perk__title {
+  color: #022b69;
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.perk__question {
+  color: #758bad;
+  font-size: 3rem;
+}
+.perk__answer {
+  color: #022b69;
+  font-size: 3rem;
+}
+
+.ratingSection {
+  margin: 5rem 0;
+}
+.ratingsRate {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.ratingsNum {
+  color: #022b69;
+  font-size: 2rem;
+}
+.ratingsNumS {
+  color: #758bad;
+}
+.ratingsBtn {
+  background-color: #022b69;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.ratingsTitle {
+  color: #022b69;
+  padding: 1rem 0;
+}
+.ratingsMsg {
+  color: #758bad;
+}
+.ratingsAction {
+  color: #0067f5;
+  font-size: 1rem;
+  padding-top: 2rem;
 }
 /* Media query */
 @media only screen and (max-width: 1024px) {
