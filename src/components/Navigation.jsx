@@ -399,7 +399,7 @@ const Navigation = () => {
                     </div>
                     
                         <input type="email" required placeholder='Your Email' className='signUpForm2'/>
-                        <button className='footerSignUpBtn2'>Sign Up For Free</button>
+                        <Link to="/signup"><button className='footerSignUpBtn2'>Sign Up For Free</button></Link>
 
                 </div>
             </div>
