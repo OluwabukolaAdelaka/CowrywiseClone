@@ -1,6 +1,7 @@
 .signUpCon {
   min-height: 100vh;
   background-color: #c3c8cf8f;
+  padding-bottom: 2rem;
 }
 
 .logoCon {
@@ -14,6 +15,10 @@
 
 .textPart {
   padding-left: 2rem !important ;
+}
+
+.textPart {
+  padding-top: 6rem;
 }
 
 .hero-text {
@@ -141,10 +146,14 @@ span {
 }
 
 @media only screen and (max-width: 698px) {
+  .logoCon {
+    padding: 2rem 0 1rem 2rem;
+  }
   .acc-details {
     width: 8rem;
     height: auto;
     margin: 0rem 1rem;
+    padding-bottom: 2rem;
   }
   .hero-text {
     padding-left: 2rem;
@@ -164,17 +173,21 @@ span {
     padding-left: 2rem;
   }
   .trusted {
-    background-color: #fff;
-    color: #758bad;
-    border-radius: 10px;
-    width: fit-content;
-    height: auto;
     padding: 5px;
-    margin: 0 0 1rem 2rem;
+    margin: 0 0 1rem 1.8rem !important;
   }
   .acc-part {
     display: block;
     padding: 1rem 0;
     justify-content: space-between;
+  }
+  .textPart {
+    padding-top: 2rem;
+  }
+  .signUpInput {
+    width: 90%;
+  }
+  .signup-btn {
+    margin-top: 10px;
   }
 }

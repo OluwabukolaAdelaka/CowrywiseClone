@@ -98,12 +98,14 @@ div.dropdown-menu.show {
   padding: 5px 8px;
   letter-spacing: 1px;
 }
+
 .login-btn {
   color: #2d81f6;
   background-color: #fff;
   border: none;
   outline: none;
   margin-right: 1.5rem;
+  padding-left: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -119,13 +121,13 @@ div.dropdown-menu.show {
 }
 
 /* Hero Section */
-.heroSection {
+.heroSectionCon {
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
 
 .imgs {
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 
@@ -159,10 +161,10 @@ div.dropdown-menu.show {
   border: none;
   border-radius: 5px;
   padding: 12px 16px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   outline: none;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 }
 
 /* values */
@@ -177,7 +179,7 @@ div.dropdown-menu.show {
 
 .savings {
   background-color: #f4f6ff;
-  width: 36rem;
+  width: 33rem;
   height: 44rem;
   margin: 6rem 0 5rem;
   padding: 3rem 0rem 0rem 3rem;
@@ -185,7 +187,7 @@ div.dropdown-menu.show {
 }
 .mutual {
   background-color: #e1f6ff;
-  width: 36rem;
+  width: 33rem;
   height: 46rem;
   margin: 6rem 0 5rem;
   padding: 3rem;
@@ -194,15 +196,15 @@ div.dropdown-menu.show {
 .stash {
   background-color: #0066f5;
   color: white;
-  width: 36rem;
-  height: 47rem;
+  width: 33rem;
+  height: 44rem;
   margin: 6rem 0 5rem;
   padding: 3rem;
   border-radius: 20px;
 }
 .circles {
   background-color: #fff6ee;
-  width: 36rem;
+  width: 33rem;
   height: 44rem;
   margin: 6rem 0 5rem;
   padding: 3rem;
@@ -210,7 +212,7 @@ div.dropdown-menu.show {
 }
 .emergency {
   background-color: #fdf3f6;
-  width: 36rem;
+  width: 33rem;
   height: 44rem;
   margin: 6rem 0 5rem;
   padding: 3rem;
@@ -218,7 +220,7 @@ div.dropdown-menu.show {
 }
 .stock {
   background-color: #f5f6fa;
-  width: 36rem;
+  width: 33rem;
   height: 46rem;
   margin: 6rem 0 5rem;
   padding: 3rem;
@@ -304,12 +306,23 @@ div.dropdown-menu.show {
   color: #758bad;
   padding-left: 3rem;
 }
+.stepSignUpBtn {
+  background-color: #0066f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  margin-right: 1.5rem;
+}
 
 /* Security Section */
 .securitySection {
   background-color: #0066f5;
-  margin: 5rem 3rem;
-  padding: 5rem 9rem;
+  margin: 5rem 0rem;
+  padding: 5rem 3rem;
 }
 .securityHero {
   color: #fff;
@@ -364,9 +377,10 @@ div.dropdown-menu.show {
 /* Perk Section */
 .perk__title {
   color: #022b69;
-  letter-spacing: 0.5rem;
-  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  padding-bottom: 2rem;
 }
 .perk__question {
   color: #758bad;
@@ -380,9 +394,14 @@ div.dropdown-menu.show {
 .ratingSection {
   margin: 5rem 0;
 }
+.ratingCon {
+  background-color: #e1f6ff;
+  padding: 2rem;
+  border-radius: 20px;
+}
 .ratingsRate {
   display: flex;
-  width: 70%;
+  width: 90%;
   justify-content: space-between;
 }
 .ratingsNum {
@@ -391,17 +410,25 @@ div.dropdown-menu.show {
 }
 .ratingsNumS {
   color: #758bad;
+  font-size: 1.2rem;
 }
 .ratingsBtn {
   background-color: #022b69;
   color: #fff;
-  padding: 10px 15px;
+  padding: 8px 15px;
   border: none;
   border-radius: 5px;
+  font-size: 0.7rem;
 }
+.ratingsBtn span {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
 .ratingsTitle {
   color: #022b69;
   padding: 1rem 0;
+  font-size: 1.5rem;
 }
 .ratingsMsg {
   color: #758bad;
@@ -411,21 +438,317 @@ div.dropdown-menu.show {
   font-size: 1rem;
   padding-top: 2rem;
 }
+.ratingsIcon {
+  color: #f7b66d;
+  font-size: 1.8rem;
+  padding-left: 10px;
+}
+.storeIcon {
+  color: #fff;
+  font-size: 2rem;
+  padding-right: 10px;
+}
+
+/* Footer Section */
+.footerSignUp {
+  margin: 5rem 0;
+  background-color: #0067f5;
+  color: #fff;
+  padding: 3rem;
+  border-radius: 20px;
+}
+.signUpHero {
+  font-size: 3rem;
+}
+.footerEmail {
+  background-color: #f5f6fa4d;
+  width: 80%;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 2rem;
+  color: #fff;
+}
+.signUpForm {
+  width: 70%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+}
+.signUpForm2 {
+  display: none;
+  width: 100%;
+  border: none;
+  background-color: #f5f6fa4d;
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: #fff;
+  outline: none;
+  margin-bottom: 10px;
+}
+.footerSignUpBtn {
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: #022b69;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.footerSignUpBtn2 {
+  display: none;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: #022b69;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.footerSignUpBtn2:hover {
+  background-color: #022b69;
+  color: #fff;
+}
+.footerSignUpBtn2:hover {
+  background-color: #022b69;
+  color: #fff;
+}
+
+/* Footer Items */
+.footerItems {
+  margin: 4rem 0 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e1f6ff;
+}
+.footerItemTitle {
+  color: #022b69;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.footerItem {
+  color: #758bad;
+  list-style: none;
+  padding-bottom: 1rem;
+}
+.footerItem:hover {
+  color: #0066f5;
+  cursor: pointer;
+}
+.socialIcons {
+  color: #758bad;
+  padding-right: 10px;
+  margin-bottom: 2rem;
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+}
+.addressLocation {
+  color: #758bad;
+}
+.sec {
+  display: flex;
+  width: 20%;
+  height: auto;
+  background-color: #e1f6ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.secText {
+  padding-left: 20px;
+}
+.secLogo {
+  width: 25%;
+  height: auto;
+}
+.license {
+  color: #022b69;
+}
+.manager {
+  color: #758bad;
+}
+.footerMsg {
+  color: #758bad;
+  font-size: 0.8rem;
+}
+.cookies {
+  padding: 0.5rem;
+  background-color: #e1f6ff8f;
+  color: #758bad;
+}
 /* Media query */
 @media only screen and (max-width: 1024px) {
   div.dropdown-menu.show {
     min-width: 40%;
   }
+  /* .heroText {
+    color: #022b69;
+    font-size: 5rem;
+    font-weight: 600;
+  } */
 }
 
 @media only screen and (max-width: 768px) {
   div.dropdown-menu.show {
     min-width: 30%;
   }
+  .login-btn {
+    margin-right: 8rem !important;
+    padding-bottom: 0.7rem;
+  }
+  .heroSection {
+    display: block !important;
+  }
+  .ratingSection {
+    display: block !important;
+  }
+  .ratingsRate {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 698px) {
+  /* Nav */
   div.dropdown-menu.show {
     min-width: 21rem;
+  }
+  .login-btn {
+    margin-right: 4.5rem;
+    padding-bottom: 0.7rem;
+  }
+  /* Hero */
+  .heroText {
+    color: #022b69;
+    font-size: 5rem;
+    font-weight: 600;
+  }
+  .heroBtn {
+    padding: 12px 16px;
+    margin-top: 1rem;
+  }
+  /* value */
+  .savings {
+    width: 21rem;
+    height: 44rem;
+  }
+  .mutual {
+    width: 21rem;
+    height: 44rem;
+  }
+  .stash {
+    width: 21rem;
+    height: 44rem;
+  }
+  .circles {
+    width: 22rem;
+    height: 44rem;
+  }
+  .emergency {
+    width: 21rem;
+    height: 44rem;
+  }
+  .stock {
+    width: 21rem;
+    height: 44rem;
+  }
+  /* step */
+  .stepSection {
+    display: block !important;
+  }
+  .stepSignUpBtn {
+    margin-right: 0;
+    margin-left: 5rem;
+  }
+  /* security */
+  .securitySection {
+    margin: 5rem 0rem;
+    padding: 5rem 1rem;
+    justify-content: center;
+  }
+  .securityHero {
+    color: #fff;
+    margin: 0rem 1rem;
+  }
+  .securityHeroTitle {
+    font-size: 3rem;
+    font-weight: 500;
+    width: 100%;
+    color: #fff;
+  }
+  .securityHeroMsg {
+    font-size: 1.2rem;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.836);
+    margin: 2rem 0;
+  }
+  .securityContent {
+    display: flex;
+    width: 70%;
+    color: #fff;
+    margin: 0rem 1.5rem;
+  }
+  .securityIcon {
+    color: #f5f6fa;
+    font-size: 4rem;
+    margin-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  .securityIconR,
+  .securityIconC,
+  .securityIconF {
+    color: #f5f6fa;
+    font-size: 5rem;
+    margin-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  .securityTitle {
+    font-size: 2rem;
+  }
+  .securityText {
+    color: #ffffffcc;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+  }
+  /* rating */
+  .ratingCon {
+    margin-bottom: 1rem;
+  }
+  /* footer */
+  .footerEmail {
+    display: none;
+  }
+  .signUpForm {
+    display: none;
+  }
+
+  .footerSignUpBtn {
+    display: none;
+  }
+  .signUpForm2 {
+    display: block;
+  }
+
+  .footerSignUpBtn2 {
+    display: block;
+  }
+  .footerItem {
+    width: 70%;
+  }
+  .sec {
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .address {
+    display: block;
+  }
+  .license {
+    padding-top: 1rem;
+  }
+  .secLogo {
+    padding-left: 1rem;
   }
 }
