@@ -395,7 +395,7 @@ const Navigation = () => {
                 <div className="col-sm-6 col-md-6">
                     <div className="footerEmail">
                         <input type="email" required placeholder='Your Email' className='signUpForm'/>
-                        <button className='footerSignUpBtn'>Sign Up For Free</button>
+                        <Link to="/signup"><button className='footerSignUpBtn'>Sign Up For Free</button></Link>
                     </div>
                     
                         <input type="email" required placeholder='Your Email' className='signUpForm2'/>
